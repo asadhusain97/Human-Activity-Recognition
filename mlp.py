@@ -151,48 +151,6 @@ def validate_mlp(X_valid, y_valid, MLP):
     
     
     
-"""
-PCA Graph
-
-sm = SMOTE(random_state = 42)
-
-X_trainArr = dfFeature.to_numpy()
-Y = pd.DataFrame(dfRawData[0]["motion"])
-y_trainArr = Y["motion"].to_numpy()
-
-X_train_oversampled, y_train_oversampled = sm.fit_resample(X_trainArr, y_trainArr)
-
-
-y_train_oversampled[1890:] = 2
-y_train_oversampled[1890:]
-
-pca = PCA(n_components=2)
-principalComponents = pca.fit_transform(X_train_oversampled)
-
-principalDf = pd.DataFrame(data = principalComponents
-             , columns = ['principal component 1', 'principal component 2'])
-
-labelDf = pd.DataFrame(data = y_train_oversampled, columns = ['motions'])
-
-finalDf = pd.concat([principalDf, labelDf['motions']], axis = 1)
-
-fig = plt.figure(figsize = (8,8))
-ax = fig.add_subplot(1,1,1) 
-ax.set_xlabel('Principal Component 1', fontsize = 15)
-ax.set_ylabel('Principal Component 2', fontsize = 15)
-ax.set_title('2 component PCA', fontsize = 20)
-targets = [0, 2, 1]
-colors = ['blue', 'r', 'orange']
-for target, color in zip(targets,colors):
-    indicesToKeep = finalDf['labels'] == target
-    ax.scatter(finalDf.loc[indicesToKeep, 'principal component 1']
-               , finalDf.loc[indicesToKeep, 'principal component 2']
-               , c = color
-               , s = 50)
-ax.legend(['other','danger','artificial danger'])
-ax.grid()
-
-"""
 
 
 """
