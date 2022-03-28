@@ -227,25 +227,3 @@ print(f"tp: {tpRate:.3f}, fn: {fnRate:.3f}")
 print(f"fp: {fpRate:.3f}, tn: {tnRate:.3f}")
 print("-----------------------------")
 
-
-
-"""
-Plot the performance(accuracy, sensitivity, and precision) of the MLP along the no. of neurons used
-
-fig = plt.gcf()
-fig.set_size_inches(12, 8)
-
-x_axis = np.arange(len(neuronLevelArr))
-
-plt.bar(x_axis -0.1, accuracyArr, width=0.1, label = 'Accuracy')
-plt.bar(x_axis, senseArr , width=0.1, label = 'Sensitivity')
-plt.bar(x_axis + 0.1, percisionArr, width=0.1, label = 'Precision')
-
-plt.xticks(x_axis, neuronLevelArr, fontsize=15)
-plt.yticks(fontsize=15)
-plt.xlabel("# of hidden neurons", fontsize=15)
-
-plt.legend(loc=2, prop={'size': 16})
-
-plt.show()
-"""
