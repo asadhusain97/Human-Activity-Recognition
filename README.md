@@ -14,15 +14,19 @@ Our task in this project was to classify an event in the following four categori
 ## What did we do?
 
 **Step 1 - Understanding data**
+
 We had 375 acceleration values in x,y, and z directions for every incident. 
 
 **Step 2 - Brainstorming features**
+
 From those 3 columns we created upwards of 20 new features which included simple statistical manipulations of the acceleration values like mean, max, variance, range, and standard deviation to more complex concepts like fourrier series and signal processing.
  
  **Step 3 - Modelling**
+ 
 We tried multiple machine learning models and got the best results with Neural Network (MLP) and a convoluted neural network. 
 
 **Results**
+
 Overall we improved the model precision to 74%. 
 
 
