@@ -3,11 +3,6 @@
 
 # Human Activity Recognition
 
-<!-- badges: start -->
-
-[![MIT
-License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
-<!-- badges: end -->
 
 This repository contains raw accelerometer data for a wearable that is
 worn by a user and determines if a user has experienced ‘harmful’
