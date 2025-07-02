@@ -1,6 +1,6 @@
 # Human Activity Recognition
 
-This repository contains the codes for a real world project I did with Purdue Datamine team from Jan to May'2022.
+This repository contains the codes for a real world project I did with Purdue Datamine team from Jan to May'2022. Learn more about the project [here](https://asadhusain97.github.io/projects/humanactivity.html)
 
 ## Problem
 Our client had a worker safety management system, with an arm worn device with various sensors for tracking his/her activity.
